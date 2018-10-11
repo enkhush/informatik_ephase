@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+	 <link rel="stylesheet" type="text/css" href="mydesign.css">
+       <title>
+         Informatik E-Phase
+       </title>
+
+
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;    
+}
+</style>
+</head>
+	
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+	 
+  <div class="bg"></div> 
+	 
+  <div class="container mt-3">
+	 
+  <!-- Nav tabs -->
+
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link active" data-toggle="tab" href="#home">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#menu1">Login/Registration</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#menu2">Newsletter</a>
+    </li>
+  </ul>
+
+  <!-- Tab panes -->
+
+  <div class="tab-content">
+    <div id="home" class="container tab-pane active"><br>
+      <h3>HOME</h3>
+      <p>.........</p>
+    </div>
+    <div id="menu1" class="container tab-pane fade"><br>
+      <h3>Login/Registration</h3>
+      <p>
+	    <form id="feedbackform">
+          First name:<br>
+          <input type="text" name="firstname"><br>
+          Last name:<br>
+          <input type="text" name="lastname"><br>
+          E-Mail:<br>
+          <input type="text" name="email"><br>
+      
+          <input type="radio" name="gender" value="male" checked> Male <br>
+          <input type="radio" name="gender" value="female" > Female <br>
+        
+		  <textarea name="comment" form="feedbackform">Nickname</textarea>
+			
+        <input type="submit" value="Send">
+        </form>
+      </p>
+    </div>
+    <div id="menu2" class="container tab-pane fade"><br>
+      <h3>Newsletter</h3>
+      <p>
+		 <form class="descriptions" id="collection"  method="" action="">
+           First name:<br>
+           <input type="text" name="firstname"><br>
+           Last name:<br>
+           <input type="text" name="lastname"><br>
+           E-Mail:<br>
+           <input type="text" name="email"><br>
+<form action="/action_page.php" method="get">
+  <input type="checkbox" name="Check" value="AGB"> Ich habe die <a href="agb.html">AGB</a> gelesen.<br>
+  <input type="checkbox" name="Check" value="E-Mail" checked> Ich möchte per E-Mail informiert werden.<br>
+  <input type="submit" value="Send">
+</form>
+</form>
+       </p>
+    </div>
+  </div>
+</div>
+		<!--Ends here-->
+
+
+<div class="jumbotron text-center">
+  <h1>Funktionsweise des Internets</h1>
+  <p>Unten seht ihr die Themen, die wir behandeln werden.</p>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3">
+      <h3>Client-Server-Modell</h3>
+      <p>Serverarten (Proxyserver, Mailserver,...)</p>
+    </div>
+    <div class="col-sm-3">
+      <h3>DNS</h3>
+      <p>Grundlegende Funktionsweise </p>
+      <p>DNS Hierarchie + Bsp.</p>
+    </div>
+    <div class="col-sm-3">
+      <h3>TCP/IP</h3>
+      <p>Grundlegende Funktionsweise</p>
+      <p>Verwendung</p>
+      <p>Einordnung in das OSI-Schichtenmodell</p>
+    </div>
+	   <div class="col-sm-3">
+      <h3>OSI-Schichtenmodell</h3>
+      <p>Grundlegende Funktionsweise</p>
+	  <p>Einordnung des TCP/IP<br />
+	   <small>Bezug zur Hardwareebene für Schichten 1-2</small></p>
+    </div>
+  </div>
+</div> 
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+
+
+  <h1 style="color: black; background-color:darkred">
+	Informatik
+  </h1>
+	   <h3 style="color: white;">What am I doing?</h3>
+
+    <!--Scrollspy-->
+			<!--Sachen noch verbessern und korrigieren-->
+	 <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">  
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#section1">Client-Server-Modell</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        DNS
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#section2">Funktionsweise</a>
+        <a class="dropdown-item" href="#section3">DNS Hierarchie</a>
+      </div>
+    </li>
+   <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        TCP/IP
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#section4">Funktionsweise</a>
+        <a class="dropdown-item" href="#section5">Verwendung</a>
+		<a class="dropdown-item" href="#section6">Einordnung in das OSI-Schichtenmodell</a>
+      </div>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        OSI-Schichtenmodell
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#section41">Funktionsweise</a>
+        <a class="dropdown-item" href="#section42">Einordnung des TCP/IP</a>
+      </div>
+    </li>
+	  <li class="nav-item">
+      <a class="nav-link" href="#section43">Feedback</a>
+    </li>
+  </ul>
+</nav>
+
+<div id="section1" class="container-fluid bg-success" style="padding-top:70px;padding-bottom:70px">
+  <h2>Client-Server-Modell</h2>
+  <p></p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<div id="section2" class="container-fluid bg-warning" style="padding-top:70px;padding-bottom:70px">
+  <h2>Funktionsweise</h2>
+  <p>Jede Website hat eine IP-Adresse, die wird nötig um sie im Internet zu adressieren. Das einzige Problem ist, dass wir uns eine IP-Adresse schlecht
+	 merken können, da werden Domain-Namen/Computernamen benötigt. Sie sind leichter zu merken und da kommt das DNS (Domain Name System) ins Spiel. Es wird
+	 benötigt um von einem Domain Namen zur IP-Adresse zu gelangen. Er liefert uns also, zu einem Domain Namen, die passende IP-Adresse.</p>
+  <p>Es gibt nicht nur einen DNS Server, sondern Tausende, da das Internet ein <b>dezentrales</b> Netzwerk ist. Das bedeutet, dass jedes Netzwerk ihren
+	 eigenen DNS Server besitzt, der eine eigene Liste von Domain Namen und IP-Adressen hat.</p>
+  <p>Wenn jedes Netzwerk ihren eigenen DNS Server hat, gibt es keine zentrale Datenbank und das wiederum bedeutet, das nicht alle DNS Server einen Domain
+	 Namen in eine IP-Adresse auflösen kann. In so einem Fall schickt der DNS Server einem anderen DNS Server eine Anfrage und macht es solange bis ein anderer
+	 DNS Server eine "Antwort" zurückschickt.</p>
+</div>
+<div id="section3" class="container-fluid bg-warning" style="padding-top:70px;padding-bottom:70px">
+  <h2>DNS Hierarchie </h2> 
+  <p>1.Root Level</p>
+  <p>2.Top Level Domains</p>
+  <p>3.Second Level Domains</p>
+  <p>4.Sub-Domain</p>
+  <p>5.Host</p>
+  <p>
+    <ol>
+     <li>z.B.: Adminstrator, Superuser
+     <li>z.B.: .uk, .us, .de
+	 <li>z.B.: <span style="background-color:lightblue;">meinbeispiel</span>.de
+	 <li>z.B.: www.meinbeispiel.de und support.meinbeispiel.de sind Sub-Domains von meinbeispiel.de
+	 <li>z.B.: Ein Computer, der mit einem Netzwerk verbunden ist.
+    </ol>
+  </p>
+</div>
+<div id="section4" class="container-fluid bg-secondary" style="padding-top:70px;padding-bottom:70px">
+  <h3>Funktionsweise </h3>
+  <p>TCP/IP wird in zwei Protokolle aufgeteilt. Dem Transmission Control Protokoll-Suite (TCP) und dem Internet Protokoll-Suite (IP). Die TCP-Suite verarbeitet 
+	 die Daten von Anwendungen und eine Verbindung zwischen zwei Netzwerkteilnehmern herstellt, während die IP-Suite, die Übertragung und den Empfang von 
+	 Anwendungsdaten über ein Netzwerk ermöglicht. Die TCP/IP besteht aus einer Kombination von vier Schichten, der Anwendung, dem Transport, dem Internet und
+	 dem Internet Zugriff. Einer der Vorteile von TCP/IP besteht darin, dass es Datein jeglicher Größe akzeptiert und in kleiner und handhabbare Brocken teilt,
+	 genannt Pakete. Ein Paket besitzt alle nötigen Informationen, für ein Netzwerk, um es an das Ziel zu bringen.</p>
+</div>
+<div id="section5" class="container-fluid bg-secondary" style="padding-top:70px;padding-bottom:70px">
+  <h3>Verwendung </h3>
+  <p>Das TCP ist eines ersten Netzwerkprotokolle und auch das erfolgreichste. Es ist nur mit Grundwissen konfigurierbar, da es universell verwendbar und auf
+	 allen Betriebssystem gängig ist. Für die Integration verschiedener Netzwerksegmente* benötigt man bestimmtes Fachwissen und spezielle Hardware (Router).</p>
+  <p>*Ein Netzwerksegment ist ein Teil eines zusammenhängenden Netzwerkes, das vom Rest des Netzwerkes getrennt ist.</p>
+</div>
+<div id="section6" class="container-fluid bg-secondary" style="padding-top:70px;padding-bottom:70px">
+  <h3>Einordnung in das OSI-Schichtenmodell </h3>
+  <p>Die TCP/IP befindet sich in den Schichten 3 und 4 des OSI-Schichtenmodells.</p>
+  <p>Die TCP befindet sich in der 4. Schicht des Modells, da es zum Versenden von Datenströmen dient und somit im Bereich des Transportes liegt. Die IP wiederum
+	 sorgt dafür, dass das nächste Zwischenziel des empfangenen Pakets ermittelt wird und es auch dorthin weiterzuleiten. Also liegt es in der 3. Schichten,
+	 die Vermittlungs/Internetschicht.</p>
+</div>
+<div id="section41" class="container-fluid bg-danger" style="padding-top:70px;padding-bottom:70px">
+  <h2>Funktionsweise</h2>
+  <p>OSI-Modell steht für Open System Interconnection Model und definiert den Kommunikationsablauf zwischen zwei "Teilnehmern" in einem Netzwerk.</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<div id="section42" class="container-fluid bg-danger" style="padding-top:70px;padding-bottom:70px">
+  <h2>Einordnung des TCP/IP</h2>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<div id="section43" class="container-fluid bg-info" style="padding-top:70px;padding-bottom:70px">
+  <h3>Feedback </h3>
+	
+  <form id="feedbackform">
+        First name:<br>
+        <input type="text" name="firstname"><br>
+        Last name:<br>
+        <input type="text" name="lastname"><br>
+        E-Mail:<br>
+        <input type="text" name="email"><br>
+      
+        <input type="radio" name="gender" value="male" checked> Male <br>
+        <input type="radio" name="gender" value="female" > Female <br>
+        
+		<textarea name="comment" form="feedbackform">comment...</textarea>
+			
+        <input type="submit" value="Send">
+  </form>
+</div>
+
+ <!--Ends here-->
+
+		 </div>
+	   </div>
+     </div>
+
+<h1 style="color: darkred;">Das OSI-Schichtenmodell</h1>
+   
+<table style="width:50%">
+  <tr>
+	<th>OSI-Schicht</th>
+    <th>TCP/IP-Schicht</th>
+    <th>Beispiel</th>
+  </tr>
+  <tr>
+	<td><b>Anwendung</b></td>
+    <td rowspan="4">Anwendung</td> 
+	<td rowspan="3">HTTP, UDS,FTP, SMTP, POP, Telnet, OPC UA, SOCKS</td>
+  </tr>
+  <tr>
+	<td><b>Darstellung</b></td>
+  </tr>
+  <tr>
+	<td><b>Sitzung</b></td>
+  </tr>
+  <tr>
+  </tr>
+  <tr>
+	<td><b>Transport</b></td>
+	<td>Transport</td>
+	<td> <a href="Transportschicht.html">TCP</a>, UDP, SCTP</td>
+  </tr>
+  <tr>
+	<td><b>Vermittlung</b></td>
+	<td>Internet</td>
+	<td> <a href="Vermittelungsschicht.html">IP</a> (IPv4, IPv6), ICMP (über IP)</td>
+  </tr>
+  <tr>
+	<td><b>Sicherung</b></td>
+	<td rowspan="2">Netzzugang</td>
+	<td rowspan="2">Ethnernet, Token Bus, Token Ring, FDDI, IPoAC</td>
+  </tr>
+  <tr>
+	<td><b>Bitübertragung</b></td>
+  </tr>
+
+
+</table>
+
+
+   <ul>
+     <li>Das ist eine ungeordnete Liste.
+     <li>Hier werden die Sachen mit Bulletpoints geordnet.
+   </ul>
+
+
+<div class="alert alert-link alert-dismissible fade show">
+  <button type="button" class="close" data-dismiss="alert">&times;</button>
+  <strong>Info!</strong> <p><a href="https://www.w3schools.com/html/default.asp">Besuch www.w3schools.com für mehr interessante Sachen zu den Themen HTML, CSS, usw</a></p>
+</div>
+
+
+  </body>
+</html>
