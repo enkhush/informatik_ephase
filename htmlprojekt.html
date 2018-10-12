@@ -125,9 +125,7 @@ th, td {
     </div>
 	   <div class="col-sm-3">
       <h3>OSI-Schichtenmodell</h3>
-      <p>Grundlegende Funktionsweise</p>
-	  <p>Einordnung des TCP/IP<br />
-	   <small>Bezug zur Hardwareebene für Schichten 1-2</small></p>
+      <p>Was ist das?</p>
     </div>
   </div>
 </div> 
@@ -135,23 +133,23 @@ th, td {
 
 <div class="alert alert-warning alert-dismissible fade show">
   <button type="button" class="close" data-dismiss="alert">&times;</button>
-  <strong>Warning!</strong> <a href="htmlansichtvomhtmlprojekt.html">Hier geht es zur Vereinfachtenansicht</a>
+  <strong>Warning!</strong> <a href="vereinfachteansicht.html">Hier geht es zur Vereinfachtenansicht</a>
 </div>
 
 
 <div class="container">
   <div class="row">
-    <div class="col-sm-4">
+    <div class="col-sm-12">
 
 
 
-  <h1 style="color: black; background-color:darkred">
-	Informatik
+  <h1>
+    Erklärung
   </h1>
 
 
     <!--Scrollspy-->
-			<!--Sachen noch verbessern und korrigieren-->
+
 	 <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">  
   <ul class="navbar-nav">
     <li class="nav-item">
@@ -176,14 +174,9 @@ th, td {
 		<a class="dropdown-item" href="#section6">Einordnung in das OSI-Schichtenmodell</a>
       </div>
     </li>
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-        OSI-Schichtenmodell
-      </a>
-      <div class="dropdown-menu">
-        <a class="dropdown-item" href="#section41">Funktionsweise</a>
-        <a class="dropdown-item" href="#section42">Einordnung des TCP/IP</a>
-      </div>
+    <li class="nav-item">
+      <a class="nav-link" href="#section41">OSI-Schichtenmodell</a>
+    </li>
     </li>
 	  <li class="nav-item">
       <a class="nav-link" href="#section43">Feedback</a>
@@ -193,8 +186,19 @@ th, td {
 
 <div id="section1" class="container-fluid bg-success" style="padding-top:70px;padding-bottom:70px">
   <h2>Client-Server-Modell</h2>
-  <p></p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Das Client-Server-Modell beschreibt eine Möglichkeit, Aufgaben und Dienstleistungen in einem Netzwerk zu verteilen. Programme, die in Clients und Server
+	 unterteilt werden, führen diese Aufgaben aus. Der Client kann denn Server nach einer Aufgabe fragen und der Server geht auf die Anfrage ein. Ein Server
+	 kann für mehrere Clients gleichzeitig arbeiten.</p>
+  <p>Ein Server ist ein Programm, das einen Dienst anbietet und der Client ist ein anderes Programm, das diesen Dienst nutzen kann. Die Kommunikation zwischen
+	 Client und Server ist abhängig vom Dienst, das bedeutet, der Dienst bestimmt welche Informationen/Daten ausgetauscht werden. Der Client ist aktiv, während
+	 der Server passiv ist und auf Anfordungen des Clients wartet, somit ist der Server immer in Bereitschaft.<br />
+	 Die Regeln der Kommunikation eines Dienstes werden durch ein für den spezifischen Dienst angelegtes Protokoll festgelegt.</p>
+  <p>Das Client-Server-Modell kann so ausgebaut werden das eine Gruppe von Servern (Software), die eine Gruppe von Diensten anbietet.</p>
+
+<!--Beispielbild Client-Server-Modell-->
+  <a href="Client-Server-Modell.jpg">Client-Server-Modell Beispielbild</a>
+<!--Endet hier-->
+
 </div>
 <div id="section2" class="container-fluid bg-warning" style="padding-top:70px;padding-bottom:70px">
   <h2>Funktionsweise</h2>
@@ -246,63 +250,7 @@ th, td {
 	 die Vermittlungs/Internetschicht.</p>
 </div>
 <div id="section41" class="container-fluid bg-danger" style="padding-top:70px;padding-bottom:70px">
-  <h2>Funktionsweise</h2>
-  <p>OSI-Modell steht für Open System Interconnection Model und definiert den Kommunikationsablauf zwischen zwei "Teilnehmern" in einem Netzwerk.</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-</div>
-<div id="section42" class="container-fluid bg-danger" style="padding-top:70px;padding-bottom:70px">
-  <h2>Einordnung des TCP/IP</h2>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-</div>
-<div id="section43" class="container-fluid bg-info" style="padding-top:70px;padding-bottom:70px">
-  <h3>Feedback </h3>
-	
-  <form id="feedbackform">
-        First name:<br>
-        <input type="text" name="firstname"><br>
-        Last name:<br>
-        <input type="text" name="lastname"><br>
-        E-Mail:<br>
-        <input type="text" name="email"><br>
-      
-        <input type="radio" name="gender" value="male" checked> Male <br>
-        <input type="radio" name="gender" value="female" > Female <br>
-        
-		<textarea name="comment" form="feedbackform">comment...</textarea>
-			
-        <input type="submit" value="Send">
-  </form>
-</div>
-
- <!--Ends here-->
-
-    </div>
-  </div>
-</div>
-
-
-<!--Test-->
-
-<div class="col-sm-6 col-md-6 col-xs-6">
-
-              <div class="thumbnail" style="border:none; background:white;">
-
-              <div class="col-sm-6 col-md-6 col-xs-12 image-container">
-                <img src="images/online_learning.jpg" style="height:200px; margin-left:-15px;" />
-              </div>
-
-              <div class="col-sm-6 col-md-6 col-xs-12">  
-
-                <h3>Hello World</h3>
-                 <p style="font-size:10px; color:#03225C;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit adipiscing blandit. Aliquam placerat, velit a fermentum fermentum, mi felis vehicula justo, a dapibus quam augue non massa.   </p>
-              </div>
-              </div>
-
- </div>
-
-<!--Endet hier-->
-
+  <h2>Was ist das?</h2>
 
 <h1 style="color: darkred;">Das OSI-Schichtenmodell</h1>
    
@@ -348,10 +296,55 @@ th, td {
 </table>
 
 
-   <ul>
-     <li>Das ist eine ungeordnete Liste.
-     <li>Hier werden die Sachen mit Bulletpoints geordnet.
-   </ul>
+  <p>OSI-Modell steht für Open System Interconnection Model und definiert den Kommunikationsablauf zwischen zwei "Teilnehmern" in einem Netzwerk. Dieses
+	 Referenzmodell besitzt sieben Schichten (Layers), die jeweils klar voneinander abgegrenzte Aufgaben besitzt. Es ermöglicht die Kommunikation zwischen
+	 verschiedenen technischen System über unterschiedliche Technologien und Medien. Um dieses Ziel zu erreichen verwendet das Referenzmodell sieben Schichten
+	 (Layers) und deren Aufbau ist hierarchisch.</p>
+  <p>In jeder Schicht werden bestimmte Aufgaben ausgeführt und jede Schicht bietet der über ihr liegenden Schicht Dienste an. Eine Schicht verwendet die
+	 Dienste der unter ihr liegenden Schicht und bearbeitet seine eigenen Aufgaben, so wird ein Dienst zur Verfügung gestellt.</p>
+  <p>Um die Sicherheit, Performance und Zuverlässigkeit einer Kommunikationsverbindung sicher zu stellen werden in den Schichten viele Aufgaben bewältigt.
+	 Während zwei Systeme miteinander kommunizieren wird das Modell zweimal oder öfters durchlaufen, weil einmal der Sender und der Empfänger das OSI-Schichten
+	 modell berücksichtigen muss.</p>
+  <p>
+	<ul>
+     <li>Schicht 1-4: Transportorientiert
+     <li>Schicht 5-7: Anwendungsorientiert
+    </ul>
+  </p>
+</div>
+<div id="section43" class="container-fluid bg-info" style="padding-top:70px;padding-bottom:70px">
+  <h3>Feedback </h3>
+	
+  <form id="feedbackform">
+        First name:<br>
+        <input type="text" name="firstname"><br>
+        Last name:<br>
+        <input type="text" name="lastname"><br>
+        E-Mail:<br>
+        <input type="text" name="email"><br>
+      
+        <input type="radio" name="gender" value="male" checked> Male <br>
+        <input type="radio" name="gender" value="female" > Female <br>
+        
+		<textarea name="comment" form="feedbackform">comment...</textarea>
+			
+        <input type="submit" value="Send">
+  </form>
+</div>
+
+ <!--Ends here-->
+
+    </div>
+  </div>
+</div>
+
+
+<!--Test-->
+
+
+
+<!--Endet hier-->
+
 
 
 <div class="alert alert-link alert-dismissible fade show">
